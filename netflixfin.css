@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: black;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left:15px;
+    padding-right: 15px;
+
+    h1{
+        font-size: 3rem;
+        color: red;
+        margin-top:-1% ;
+    }
+
+    select{
+        font-size: 1rem;
+        font-weight: 600;
+        background: transparent;
+        color: white;
+        width: 8rem;
+        padding: 5px 2px 5px 4px;
+        border-radius: 40px;
+
+        option{
+            background: transparent;
+            color: black;
+        }
+    }
+    button{
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 5px 15px 5px 15px;
+        border-radius: 40px;
+        margin-left: 3px;
+    }
+}
+
+.hero{
+    width: 100%;
+    
+    .poster{
+
+        display: flex;
+        justify-content: center;
+        .backimg{
+            height: 500px;
+            opacity: 0.5;
+            width: 100%;
+            border-top: 4px solid white;
+            border-left: 4px solid white;
+            border-radius: 40px;
+            position: relative;
+        }
+        h1{
+            position: absolute;
+            bottom: 30%;
+            font-size: 4.5rem;
+            text-shadow: 0 0 20px rgb(30, 29, 29);
+           
+        }
+        p{
+            position: absolute;
+            bottom: 26%;
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+.email{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    
+    input{
+        font-size: 1rem;
+        color: whitesmoke;
+        font-weight: 700;
+        width: 350px;
+        height: 50px;
+        background: transparent;
+        padding-left: 20px;
+        border-radius: 40px;
+        border: 1px solid white;
+    }
+
+    button{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        background-color: red;
+        border: 0;
+        border-radius: 40px;
+        width: 200px;
+        margin-left: 10px;
+    }
+}
+
+section{
+    margin-left: 100px;
+    margin-right: 10px;
+    
+    h1{
+        font-size: 2rem;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+}
+.movies{
+    img{
+        height: 300px;
+        width: 200px;
+        border-radius: 20px;
+        padding: 3px;
+        margin: 2px;
+        cursor: pointer;
+        transition: 0.3s ease-out;
+    }
+    img:hover{
+        /* height: 310px;
+        width: 215px;
+        margin: -1px; */
+        transform: scale(1.1);
+    }
+}
+
+.detail{
+    display: flex;
+
+    .data{
+        border-radius: 10px ;
+        border: 2px solid rgb(42, 42, 42);
+        height: 130px;
+        width: 300px;
+        margin-right:10px;
+
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-left: 16px;
+        padding-top: 10px;
+        background-color: rgb(34, 33, 33);
+
+
+    }
+}
+
+.que{
+    height: 80px;
+    width: 94%;
+    background-color:rgb(34, 33, 33) ;
+    border-radius: 15px;
+    border: 2px solid rgb(42, 42, 42);
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.que:hover{
+    background-color:rgb(60, 59, 59) ;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    button{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+        background-color: red;
+        border: 0;
+        border-radius: 40px;
+        width: 180px;
+        height: 45px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+        
+}
+h4{
+    color: rgba(255, 255, 255, 0.7);
+    margin: 70px 0 50px 180px;
+    font{
+        text-decoration:underline;
+        cursor: pointer;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .foot{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a{
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 12px;
+        font-size: 1rem;
+    }
+
+}
+.language{
+    margin-left: 170px;
+        margin-top: 50px;
+    select{
+        font-size: 1rem;
+        font-weight: 500;
+        background: transparent;
+        color: white;
+        width: 8rem;
+        padding: 5px 2px 5px 4px;
+        border-radius: 40px;
+        
+
+        option{
+            background: transparent;
+            color: black;
+        }
+    }
+    p{
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 50px;
+        font: 1rem;
+        font-weight: 500;
+    }
+}
